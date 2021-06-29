@@ -21,20 +21,20 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import isAllowedDataTypeCast = require( '@stdlib/ndarray-base-assert-is-allowed/data/type-cast' );
+import isAllowedDataTypeCast = require( '@stdlib/ndarray-base-assert-is-allowed-data-type-cast' );
 import isBufferLengthCompatible = require( '@stdlib/ndarray-base-assert-is-buffer-length-compatible' );
 import isBufferLengthCompatibleShape = require( '@stdlib/ndarray-base-assert-is-buffer-length-compatible-shape' );
 import isCastingMode = require( '@stdlib/ndarray-base-assert-is-casting-mode' );
 import isColumnMajor = require( '@stdlib/ndarray-base-assert-is-column-major' );
 import isColumnMajorContiguous = require( '@stdlib/ndarray-base-assert-is-column-major-contiguous' );
 import isContiguous = require( '@stdlib/ndarray-base-assert-is-contiguous' );
-import isDataType = require( '@stdlib/ndarray-base-assert-is/data/type' );
+import isDataType = require( '@stdlib/ndarray-base-assert-is-data-type' );
 import isIndexMode = require( '@stdlib/ndarray-base-assert-is-index-mode' );
 import isOrder = require( '@stdlib/ndarray-base-assert-is-order' );
 import isRowMajor = require( '@stdlib/ndarray-base-assert-is-row-major' );
 import isRowMajorContiguous = require( '@stdlib/ndarray-base-assert-is-row-major-contiguous' );
-import isSafeDataTypeCast = require( '@stdlib/ndarray-base-assert-is-safe/data/type-cast' );
-import isSameKindDataTypeCast = require( '@stdlib/ndarray-base-assert-is-same-kind/data/type-cast' );
+import isSafeDataTypeCast = require( '@stdlib/ndarray-base-assert-is-safe-data-type-cast' );
+import isSameKindDataTypeCast = require( '@stdlib/ndarray-base-assert-is-same-kind-data-type-cast' );
 import isSingleSegmentCompatible = require( '@stdlib/ndarray-base-assert-is-single-segment-compatible' );
 
 /**
