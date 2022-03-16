@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-assert",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Base ndarray assertion utilities.",
   "license": "Apache-2.0",
   "author": {
