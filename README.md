@@ -24,38 +24,30 @@ limitations under the License.
 
 > Base ndarray assertion utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-assert
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/ndarray-base-assert/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/ndarray-base-assert' );
 ```
 
 #### ns
@@ -81,6 +73,7 @@ var o = ns;
 -   <span class="signature">[`isDataType( value )`][@stdlib/ndarray/base/assert/is-data-type]</span><span class="delimiter">: </span><span class="description">test if an input value is a supported ndarray data type.</span>
 -   <span class="signature">[`isIndexMode( value )`][@stdlib/ndarray/base/assert/is-index-mode]</span><span class="delimiter">: </span><span class="description">test if an input value is a supported ndarray index mode.</span>
 -   <span class="signature">[`isOrder( value )`][@stdlib/ndarray/base/assert/is-order]</span><span class="delimiter">: </span><span class="description">test if an input value is an ndarray order.</span>
+-   <span class="signature">[`isReadOnly( arr )`][@stdlib/ndarray/base/assert/is-read-only]</span><span class="delimiter">: </span><span class="description">test if an ndarray is **read-only**.</span>
 -   <span class="signature">[`isRowMajorContiguous( shape, strides, offset )`][@stdlib/ndarray/base/assert/is-row-major-contiguous]</span><span class="delimiter">: </span><span class="description">determine if an array is row-major contiguous.</span>
 -   <span class="signature">[`isRowMajor( strides )`][@stdlib/ndarray/base/assert/is-row-major]</span><span class="delimiter">: </span><span class="description">given a stride array, determine whether an array is row-major.</span>
 -   <span class="signature">[`isSafeDataTypeCast( from, to )`][@stdlib/ndarray/base/assert/is-safe-data-type-cast]</span><span class="delimiter">: </span><span class="description">determine whether an ndarray data type can be safely cast to another ndarray data type.</span>
@@ -103,21 +96,11 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/ndarray-base-assert' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -203,35 +186,37 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/ndarray/base/assert/is-allowed-data-type-cast]: https://github.com/stdlib-js/ndarray-base-assert-is-allowed-data-type-cast/tree/umd
+[@stdlib/ndarray/base/assert/is-allowed-data-type-cast]: https://github.com/stdlib-js/ndarray-base-assert-is-allowed-data-type-cast
 
-[@stdlib/ndarray/base/assert/is-buffer-length-compatible-shape]: https://github.com/stdlib-js/ndarray-base-assert-is-buffer-length-compatible-shape/tree/umd
+[@stdlib/ndarray/base/assert/is-buffer-length-compatible-shape]: https://github.com/stdlib-js/ndarray-base-assert-is-buffer-length-compatible-shape
 
-[@stdlib/ndarray/base/assert/is-buffer-length-compatible]: https://github.com/stdlib-js/ndarray-base-assert-is-buffer-length-compatible/tree/umd
+[@stdlib/ndarray/base/assert/is-buffer-length-compatible]: https://github.com/stdlib-js/ndarray-base-assert-is-buffer-length-compatible
 
-[@stdlib/ndarray/base/assert/is-casting-mode]: https://github.com/stdlib-js/ndarray-base-assert-is-casting-mode/tree/umd
+[@stdlib/ndarray/base/assert/is-casting-mode]: https://github.com/stdlib-js/ndarray-base-assert-is-casting-mode
 
-[@stdlib/ndarray/base/assert/is-column-major-contiguous]: https://github.com/stdlib-js/ndarray-base-assert-is-column-major-contiguous/tree/umd
+[@stdlib/ndarray/base/assert/is-column-major-contiguous]: https://github.com/stdlib-js/ndarray-base-assert-is-column-major-contiguous
 
-[@stdlib/ndarray/base/assert/is-column-major]: https://github.com/stdlib-js/ndarray-base-assert-is-column-major/tree/umd
+[@stdlib/ndarray/base/assert/is-column-major]: https://github.com/stdlib-js/ndarray-base-assert-is-column-major
 
-[@stdlib/ndarray/base/assert/is-contiguous]: https://github.com/stdlib-js/ndarray-base-assert-is-contiguous/tree/umd
+[@stdlib/ndarray/base/assert/is-contiguous]: https://github.com/stdlib-js/ndarray-base-assert-is-contiguous
 
-[@stdlib/ndarray/base/assert/is-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type/tree/umd
+[@stdlib/ndarray/base/assert/is-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type
 
-[@stdlib/ndarray/base/assert/is-index-mode]: https://github.com/stdlib-js/ndarray-base-assert-is-index-mode/tree/umd
+[@stdlib/ndarray/base/assert/is-index-mode]: https://github.com/stdlib-js/ndarray-base-assert-is-index-mode
 
-[@stdlib/ndarray/base/assert/is-order]: https://github.com/stdlib-js/ndarray-base-assert-is-order/tree/umd
+[@stdlib/ndarray/base/assert/is-order]: https://github.com/stdlib-js/ndarray-base-assert-is-order
 
-[@stdlib/ndarray/base/assert/is-row-major-contiguous]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/tree/umd
+[@stdlib/ndarray/base/assert/is-read-only]: https://github.com/stdlib-js/ndarray-base-assert-is-read-only
 
-[@stdlib/ndarray/base/assert/is-row-major]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major/tree/umd
+[@stdlib/ndarray/base/assert/is-row-major-contiguous]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous
 
-[@stdlib/ndarray/base/assert/is-safe-data-type-cast]: https://github.com/stdlib-js/ndarray-base-assert-is-safe-data-type-cast/tree/umd
+[@stdlib/ndarray/base/assert/is-row-major]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major
 
-[@stdlib/ndarray/base/assert/is-same-kind-data-type-cast]: https://github.com/stdlib-js/ndarray-base-assert-is-same-kind-data-type-cast/tree/umd
+[@stdlib/ndarray/base/assert/is-safe-data-type-cast]: https://github.com/stdlib-js/ndarray-base-assert-is-safe-data-type-cast
 
-[@stdlib/ndarray/base/assert/is-single-segment-compatible]: https://github.com/stdlib-js/ndarray-base-assert-is-single-segment-compatible/tree/umd
+[@stdlib/ndarray/base/assert/is-same-kind-data-type-cast]: https://github.com/stdlib-js/ndarray-base-assert-is-same-kind-data-type-cast
+
+[@stdlib/ndarray/base/assert/is-single-segment-compatible]: https://github.com/stdlib-js/ndarray-base-assert-is-single-segment-compatible
 
 <!-- </toc-links> -->
 
