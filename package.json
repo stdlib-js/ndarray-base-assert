@@ -3,7 +3,30 @@
   "version": "0.0.7",
   "description": "Base ndarray assertion utilities.",
   "license": "Apache-2.0",
-  "main": "./index.js",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -12,6 +35,65 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/ndarray-base-assert-is-allowed-data-type-cast": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-buffer-length-compatible": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-buffer-length-compatible-shape": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-casting-mode": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-column-major": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-column-major-contiguous": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-contiguous": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-data-type": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-index-mode": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-order": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-read-only": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-row-major": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-row-major-contiguous": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-safe-data-type-cast": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-same-kind-data-type-cast": "^0.0.x",
+    "@stdlib/ndarray-base-assert-is-single-segment-compatible": "^0.0.x",
+    "@stdlib/utils-define-read-only-property": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
+  },
+  "devDependencies": {
+    "@stdlib/assert-is-boolean": "^0.0.x",
+    "@stdlib/bench": "^0.0.x",
+    "@stdlib/math-base-special-abs": "^0.0.x",
+    "@stdlib/math-base-special-floor": "^0.0.x",
+    "@stdlib/ndarray-array": "^0.0.x",
+    "@stdlib/ndarray-base-iteration-order": "^0.0.x",
+    "@stdlib/ndarray-base-minmax-view-buffer-index": "^0.0.x",
+    "@stdlib/ndarray-base-numel": "^0.0.x",
+    "@stdlib/ndarray-base-shape2strides": "^0.0.x",
+    "@stdlib/ndarray-base-strides2offset": "^0.0.x",
+    "@stdlib/ndarray-casting-modes": "^0.0.x",
+    "@stdlib/ndarray-dtypes": "^0.0.x",
+    "@stdlib/ndarray-index-modes": "^0.0.x",
+    "@stdlib/ndarray-orders": "^0.0.x",
+    "@stdlib/ndarray-safe-casts": "^0.0.x",
+    "@stdlib/ndarray-same-kind-casts": "^0.0.x",
+    "@stdlib/random-base-discrete-uniform": "^0.0.x",
+    "@stdlib/random-base-randu": "^0.0.x",
+    "@stdlib/utils-keys": "^0.0.x",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdtypes",
