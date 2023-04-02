@@ -47,7 +47,7 @@
     "@stdlib/ndarray-base-assert-is-data-type": "^0.0.8",
     "@stdlib/ndarray-base-assert-is-floating-point-data-type": "github:stdlib-js/ndarray-base-assert-is-floating-point-data-type#main",
     "@stdlib/ndarray-base-assert-is-index-mode": "^0.0.7",
-    "@stdlib/ndarray-base-assert-is-integral-data-type": "github:stdlib-js/ndarray-base-assert-is-integral-data-type#main",
+    "@stdlib/ndarray-base-assert-is-integer-data-type": "github:stdlib-js/ndarray-base-assert-is-integer-data-type#main",
     "@stdlib/ndarray-base-assert-is-numeric-data-type": "github:stdlib-js/ndarray-base-assert-is-numeric-data-type#main",
     "@stdlib/ndarray-base-assert-is-order": "^0.0.7",
     "@stdlib/ndarray-base-assert-is-read-only": "^0.0.1",
