@@ -51,6 +51,7 @@
     "@stdlib/ndarray-base-assert-is-numeric-data-type": "github:stdlib-js/ndarray-base-assert-is-numeric-data-type#main",
     "@stdlib/ndarray-base-assert-is-order": "^0.0.7",
     "@stdlib/ndarray-base-assert-is-read-only": "^0.0.1",
+    "@stdlib/ndarray-base-assert-is-real-data-type": "github:stdlib-js/ndarray-base-assert-is-real-data-type#main",
     "@stdlib/ndarray-base-assert-is-real-floating-point-data-type": "github:stdlib-js/ndarray-base-assert-is-real-floating-point-data-type#main",
     "@stdlib/ndarray-base-assert-is-row-major": "^0.0.6",
     "@stdlib/ndarray-base-assert-is-row-major-contiguous": "^0.0.6",
