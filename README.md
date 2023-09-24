@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isAllowedDataTypeCast, isBufferLengthCompatible, isBufferLengthCompatibleShape, isCastingMode, isColumnMajor, isColumnMajorContiguous, isComplexFloatingPointDataType, isContiguous, isDataType, isFloatingPointDataType, isIndexMode, isIntegerDataType, isNumericDataType, isOrder, isReadOnly, isRealDataType, isRealFloatingPointDataType, isRowMajor, isRowMajorContiguous, isSafeDataTypeCast, isSameKindDataTypeCast, isSignedIntegerDataType, isSingleSegmentCompatible, isUnsignedIntegerDataType } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@deno/mod.js';
+import { isAllowedDataTypeCast, isBufferLengthCompatible, isBufferLengthCompatibleShape, isCastingMode, isColumnMajor, isColumnMajorContiguous, isComplexFloatingPointDataType, isContiguous, isDataType, isFloatingPointDataType, isIndexMode, isIntegerDataType, isNumericDataType, isOrder, isReadOnly, isRealDataType, isRealFloatingPointDataType, isRowMajor, isRowMajorContiguous, isSafeDataTypeCast, isSameKindDataTypeCast, isSignedIntegerDataType, isSingleSegmentCompatible, isUnsignedIntegerDataType } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@v0.1.0-deno/mod.js';
 ```
 
 #### ns
@@ -107,7 +107,7 @@ var o = ns;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@v0.1.0-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
