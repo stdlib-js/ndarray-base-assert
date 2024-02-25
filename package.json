@@ -3,30 +3,7 @@
   "version": "0.2.1",
   "description": "Base ndarray assertion utilities.",
   "license": "Apache-2.0",
-  "author": {
-    "name": "The Stdlib Authors",
-    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-  },
-  "contributors": [
-    {
-      "name": "The Stdlib Authors",
-      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-    }
-  ],
-  "main": "lib/index.js",
-  "directories": {
-    "doc": "./docs",
-    "example": "./examples",
-    "lib": "./lib",
-    "test": "./test"
-  },
-  "types": "./docs/types",
-  "scripts": {
-    "test": "make test",
-    "test-cov": "make test-cov",
-    "examples": "make examples",
-    "benchmark": "make benchmark"
-  },
+  "main": "./index.js",
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -35,78 +12,6 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
-  "dependencies": {
-    "@stdlib/ndarray-base-assert-is-allowed-data-type-cast": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-buffer-length-compatible": "^0.1.1",
-    "@stdlib/ndarray-base-assert-is-buffer-length-compatible-shape": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-casting-mode": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-column-major": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-column-major-contiguous": "^0.1.1",
-    "@stdlib/ndarray-base-assert-is-complex-floating-point-data-type": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-contiguous": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-data-type": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-floating-point-data-type": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-index-mode": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-integer-data-type": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-mostly-safe-data-type-cast": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-numeric-data-type": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-order": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-read-only": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-real-data-type": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-real-floating-point-data-type": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-row-major": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-row-major-contiguous": "^0.1.1",
-    "@stdlib/ndarray-base-assert-is-safe-data-type-cast": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-same-kind-data-type-cast": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-signed-integer-data-type": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-single-segment-compatible": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-unsigned-integer-data-type": "^0.2.1",
-    "@stdlib/utils-define-read-only-property": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
-  },
-  "devDependencies": {
-    "@stdlib/array-base-assert-contains": "^0.2.1",
-    "@stdlib/array-cartesian-square": "^0.2.0",
-    "@stdlib/assert-is-boolean": "^0.2.1",
-    "@stdlib/math-base-special-abs": "^0.2.1",
-    "@stdlib/math-base-special-floor": "^0.2.1",
-    "@stdlib/ndarray-array": "^0.2.0",
-    "@stdlib/ndarray-base-flag": "^0.2.1",
-    "@stdlib/ndarray-base-iteration-order": "^0.2.1",
-    "@stdlib/ndarray-base-minmax-view-buffer-index": "^0.2.1",
-    "@stdlib/ndarray-base-numel": "^0.2.1",
-    "@stdlib/ndarray-base-shape2strides": "^0.2.1",
-    "@stdlib/ndarray-base-strides2offset": "^0.2.1",
-    "@stdlib/ndarray-casting-modes": "^0.2.1",
-    "@stdlib/ndarray-dtypes": "^0.2.1",
-    "@stdlib/ndarray-index-modes": "^0.2.1",
-    "@stdlib/ndarray-mostly-safe-casts": "^0.2.1",
-    "@stdlib/ndarray-orders": "^0.2.1",
-    "@stdlib/ndarray-safe-casts": "^0.2.1",
-    "@stdlib/ndarray-same-kind-casts": "^0.2.1",
-    "@stdlib/random-base-discrete-uniform": "^0.2.0",
-    "@stdlib/random-base-randu": "^0.2.0",
-    "@stdlib/utils-keys": "^0.2.1",
-    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
-    "istanbul": "^0.4.1",
-    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
-  },
-  "engines": {
-    "node": ">=0.10.0",
-    "npm": ">2.7.0"
-  },
-  "os": [
-    "aix",
-    "darwin",
-    "freebsd",
-    "linux",
-    "macos",
-    "openbsd",
-    "sunos",
-    "win32",
-    "windows"
-  ],
   "keywords": [
     "stdlib",
     "stdtypes",
