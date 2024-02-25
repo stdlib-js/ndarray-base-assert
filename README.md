@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isAllowedDataTypeCast, isBufferLengthCompatible, isBufferLengthCompatibleShape, isCastingMode, isColumnMajor, isColumnMajorContiguous, isComplexFloatingPointDataType, isContiguous, isDataType, isFloatingPointDataType, isIndexMode, isIntegerDataType, isMostlySafeDataTypeCast, isNumericDataType, isOrder, isReadOnly, isRealDataType, isRealFloatingPointDataType, isRowMajor, isRowMajorContiguous, isSafeDataTypeCast, isSameKindDataTypeCast, isSignedIntegerDataType, isSingleSegmentCompatible, isUnsignedIntegerDataType } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@v0.2.1-esm/index.mjs';
+import { isAllowedDataTypeCast, isBufferLengthCompatible, isBufferLengthCompatibleShape, isCastingMode, isColumnMajor, isColumnMajorContiguous, isComplexFloatingPointDataType, isContiguous, isDataType, isFloatingPointDataType, isIndexMode, isIntegerDataType, isMostlySafeDataTypeCast, isNumericDataType, isOrder, isReadOnly, isRealDataType, isRealFloatingPointDataType, isRowMajor, isRowMajorContiguous, isSafeDataTypeCast, isSameKindDataTypeCast, isSignedIntegerDataType, isSingleSegmentCompatible, isUnsignedIntegerDataType } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@esm/index.mjs';
 ```
 
 #### ns
@@ -113,7 +118,7 @@ var o = ns;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@v0.2.1-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
