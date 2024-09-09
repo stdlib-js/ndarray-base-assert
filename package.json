@@ -36,7 +36,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/ndarray-base-assert-has-equal-shape": "github:stdlib-js/ndarray-base-assert-has-equal-shape#main",
     "@stdlib/ndarray-base-assert-is-allowed-data-type-cast": "^0.2.2",
+    "@stdlib/ndarray-base-assert-is-boolean-data-type": "^0.1.0",
     "@stdlib/ndarray-base-assert-is-buffer-length-compatible": "^0.1.2",
     "@stdlib/ndarray-base-assert-is-buffer-length-compatible-shape": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-casting-mode": "^0.2.2",
@@ -74,6 +76,7 @@
     "@stdlib/ndarray-base-iteration-order": "^0.2.2",
     "@stdlib/ndarray-base-minmax-view-buffer-index": "^0.2.2",
     "@stdlib/ndarray-base-numel": "^0.2.2",
+    "@stdlib/ndarray-base-shape": "^0.2.2",
     "@stdlib/ndarray-base-shape2strides": "^0.2.2",
     "@stdlib/ndarray-base-strides2offset": "^0.2.2",
     "@stdlib/ndarray-casting-modes": "^0.2.2",
