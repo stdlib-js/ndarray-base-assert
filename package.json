@@ -67,6 +67,7 @@
   },
   "devDependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.2",
+    "@stdlib/array-base-assert-has-equal-values-indexed": "github:stdlib-js/array-base-assert-has-equal-values-indexed#main",
     "@stdlib/array-cartesian-square": "^0.2.2",
     "@stdlib/assert-is-boolean": "^0.2.2",
     "@stdlib/math-base-special-abs": "^0.2.2",
