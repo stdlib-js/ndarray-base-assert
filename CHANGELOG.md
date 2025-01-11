@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-21)
+## Unreleased (2025-01-11)
 
 <section class="packages">
 
@@ -20,6 +20,8 @@
 
 ##### Features
 
+-   [`a94dcea`](https://github.com/stdlib-js/stdlib/commit/a94dceaa9469c774ee4622567e4c15a15e215bcf) - add `isColumnMajorString` to namespace
+-   [`5e1be08`](https://github.com/stdlib-js/stdlib/commit/5e1be08ff661fb981dc4a91c2e9d37d7396327f5) - add `isRowMajorString` to namespace
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`98e4809`](https://github.com/stdlib-js/stdlib/commit/98e480997058c3f21d3016b97d25f4c4e62231b9) - add `isBooleanDataType` to namespace
 -   [`3e7f2ca`](https://github.com/stdlib-js/stdlib/commit/3e7f2ca3c987040575b732129281c384c453e0b8) - add `hasEqualShape` to namespace
@@ -68,6 +70,50 @@
 
 <!-- /.package -->
 
+<section class="package" id="ndarray-base-assert-is-column-major-string-unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-column-major-string](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-column-major-string)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`76872c7`](https://github.com/stdlib-js/stdlib/commit/76872c76f1c655afe5e87d9d894be37f6a07c08b) - add `ndarray/base/assert/is-column-major-string`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-assert-is-row-major-string-unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-row-major-string](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-row-major-string)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8cce31a`](https://github.com/stdlib-js/stdlib/commit/8cce31aadb16c58d167e89b6b9f8483d9314715f) - add `ndarray/base/assert/is-row-major-string`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -103,6 +149,12 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`a94dcea`](https://github.com/stdlib-js/stdlib/commit/a94dceaa9469c774ee4622567e4c15a15e215bcf) - **feat:** add `isColumnMajorString` to namespace _(by Athan Reines)_
+-   [`76872c7`](https://github.com/stdlib-js/stdlib/commit/76872c76f1c655afe5e87d9d894be37f6a07c08b) - **feat:** add `ndarray/base/assert/is-column-major-string` _(by Athan Reines)_
+-   [`5e1be08`](https://github.com/stdlib-js/stdlib/commit/5e1be08ff661fb981dc4a91c2e9d37d7396327f5) - **feat:** add `isRowMajorString` to namespace _(by Athan Reines)_
+-   [`8cce31a`](https://github.com/stdlib-js/stdlib/commit/8cce31aadb16c58d167e89b6b9f8483d9314715f) - **feat:** add `ndarray/base/assert/is-row-major-string` _(by Athan Reines)_
+-   [`851a95f`](https://github.com/stdlib-js/stdlib/commit/851a95f2201a21f8a1535f61cd002de260bd2236) - **bench:** simplify value selection _(by Athan Reines)_
+-   [`264a2fc`](https://github.com/stdlib-js/stdlib/commit/264a2fce5b1fcfdf53cb27fe16980f5414564baf) - **refactor:** use base array utility _(by Athan Reines)_
 -   [`b6a2b0b`](https://github.com/stdlib-js/stdlib/commit/b6a2b0b27dc8cc1e9fc02d9679a3ce468cf49b9d) - **docs:** update namespace table of contents [(#3192)](https://github.com/stdlib-js/stdlib/pull/3192) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`114f651`](https://github.com/stdlib-js/stdlib/commit/114f651d1f29cc711adf2990a10d56470650af48) - **refactor:** use base array assertion utility _(by Athan Reines)_
