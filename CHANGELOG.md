@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-11)
+## Unreleased (2025-01-12)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`e661213`](https://github.com/stdlib-js/stdlib/commit/e66121352ef767cdb87d19e938b1eccf7970fa3a) - update namespace TypeScript declarations [(#4706)](https://github.com/stdlib-js/stdlib/pull/4706)
 -   [`a94dcea`](https://github.com/stdlib-js/stdlib/commit/a94dceaa9469c774ee4622567e4c15a15e215bcf) - add `isColumnMajorString` to namespace
 -   [`5e1be08`](https://github.com/stdlib-js/stdlib/commit/5e1be08ff661fb981dc4a91c2e9d37d7396327f5) - add `isRowMajorString` to namespace
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
@@ -149,6 +150,8 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e661213`](https://github.com/stdlib-js/stdlib/commit/e66121352ef767cdb87d19e938b1eccf7970fa3a) - **feat:** update namespace TypeScript declarations [(#4706)](https://github.com/stdlib-js/stdlib/pull/4706) _(by stdlib-bot)_
+-   [`cff470f`](https://github.com/stdlib-js/stdlib/commit/cff470f9608165100c8c122fce70c40b1af864ec) - **docs:** update namespace table of contents (#4708) _(by stdlib-bot, Planeshifter)_
 -   [`a94dcea`](https://github.com/stdlib-js/stdlib/commit/a94dceaa9469c774ee4622567e4c15a15e215bcf) - **feat:** add `isColumnMajorString` to namespace _(by Athan Reines)_
 -   [`76872c7`](https://github.com/stdlib-js/stdlib/commit/76872c76f1c655afe5e87d9d894be37f6a07c08b) - **feat:** add `ndarray/base/assert/is-column-major-string` _(by Athan Reines)_
 -   [`5e1be08`](https://github.com/stdlib-js/stdlib/commit/5e1be08ff661fb981dc4a91c2e9d37d7396327f5) - **feat:** add `isRowMajorString` to namespace _(by Athan Reines)_
