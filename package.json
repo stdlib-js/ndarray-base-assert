@@ -66,7 +66,8 @@
     "@stdlib/ndarray-base-assert-is-signed-integer-data-type": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-single-segment-compatible": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-unsigned-integer-data-type": "^0.2.2",
-    "@stdlib/utils-define-read-only-property": "^0.2.2"
+    "@stdlib/utils-define-read-only-property": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.2",
