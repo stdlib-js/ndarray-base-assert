@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-27)
+## Unreleased (2025-03-23)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`1a18317`](https://github.com/stdlib-js/stdlib/commit/1a183174f05d99bf78be477639df489493c01e2b) - add `isScalarMostlySafeCompatible` to namespace
 -   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436)
 -   [`c1b6794`](https://github.com/stdlib-js/stdlib/commit/c1b6794e36255d7df6795f5f5f4d3e493165f397) - add `isOutputDataTypePolicy` to namespace
 -   [`e661213`](https://github.com/stdlib-js/stdlib/commit/e66121352ef767cdb87d19e938b1eccf7970fa3a) - update namespace TypeScript declarations [(#4706)](https://github.com/stdlib-js/stdlib/pull/4706)
@@ -143,6 +144,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="ndarray-base-assert-is-scalar-mostly-safe-compatible-unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-scalar-mostly-safe-compatible](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-scalar-mostly-safe-compatible)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6003449`](https://github.com/stdlib-js/stdlib/commit/600344933e2836421aa15fb89d62e9a0a9266bd6) - add `ndarray/base/assert/is-scalar-mostly-safe-compatible`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -182,6 +205,8 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`1a18317`](https://github.com/stdlib-js/stdlib/commit/1a183174f05d99bf78be477639df489493c01e2b) - **feat:** add `isScalarMostlySafeCompatible` to namespace _(by Athan Reines)_
+-   [`6003449`](https://github.com/stdlib-js/stdlib/commit/600344933e2836421aa15fb89d62e9a0a9266bd6) - **feat:** add `ndarray/base/assert/is-scalar-mostly-safe-compatible` _(by Athan Reines)_
 -   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - **feat:** update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436) _(by stdlib-bot)_
 -   [`9d532b5`](https://github.com/stdlib-js/stdlib/commit/9d532b5510055d80c5df8ba4c8e897c1670dcd1a) - **docs:** update namespace table of contents [(#5438)](https://github.com/stdlib-js/stdlib/pull/5438) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`c1b6794`](https://github.com/stdlib-js/stdlib/commit/c1b6794e36255d7df6795f5f5f4d3e493165f397) - **feat:** add `isOutputDataTypePolicy` to namespace _(by Athan Reines)_
