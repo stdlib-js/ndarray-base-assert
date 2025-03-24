@@ -206,6 +206,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2e5d1fc`](https://github.com/stdlib-js/stdlib/commit/2e5d1fc2d31228deaf880f767324e73464a4ed65) - **docs:** update namespace table of contents [(#6339)](https://github.com/stdlib-js/stdlib/pull/6339) _(by stdlib-bot)_
 -   [`d8f2acf`](https://github.com/stdlib-js/stdlib/commit/d8f2acf4d31d3da271e7d2074ffb40a6317c4a23) - **feat:** update namespace TypeScript declarations [(#6337)](https://github.com/stdlib-js/stdlib/pull/6337) _(by stdlib-bot)_
 -   [`1a18317`](https://github.com/stdlib-js/stdlib/commit/1a183174f05d99bf78be477639df489493c01e2b) - **feat:** add `isScalarMostlySafeCompatible` to namespace _(by Athan Reines)_
 -   [`6003449`](https://github.com/stdlib-js/stdlib/commit/600344933e2836421aa15fb89d62e9a0a9266bd6) - **feat:** add `ndarray/base/assert/is-scalar-mostly-safe-compatible` _(by Athan Reines)_
