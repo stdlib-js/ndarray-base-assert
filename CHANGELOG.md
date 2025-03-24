@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-23)
+## Unreleased (2025-03-24)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`d8f2acf`](https://github.com/stdlib-js/stdlib/commit/d8f2acf4d31d3da271e7d2074ffb40a6317c4a23) - update namespace TypeScript declarations [(#6337)](https://github.com/stdlib-js/stdlib/pull/6337)
 -   [`1a18317`](https://github.com/stdlib-js/stdlib/commit/1a183174f05d99bf78be477639df489493c01e2b) - add `isScalarMostlySafeCompatible` to namespace
 -   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436)
 -   [`c1b6794`](https://github.com/stdlib-js/stdlib/commit/c1b6794e36255d7df6795f5f5f4d3e493165f397) - add `isOutputDataTypePolicy` to namespace
@@ -205,6 +206,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d8f2acf`](https://github.com/stdlib-js/stdlib/commit/d8f2acf4d31d3da271e7d2074ffb40a6317c4a23) - **feat:** update namespace TypeScript declarations [(#6337)](https://github.com/stdlib-js/stdlib/pull/6337) _(by stdlib-bot)_
 -   [`1a18317`](https://github.com/stdlib-js/stdlib/commit/1a183174f05d99bf78be477639df489493c01e2b) - **feat:** add `isScalarMostlySafeCompatible` to namespace _(by Athan Reines)_
 -   [`6003449`](https://github.com/stdlib-js/stdlib/commit/600344933e2836421aa15fb89d62e9a0a9266bd6) - **feat:** add `ndarray/base/assert/is-scalar-mostly-safe-compatible` _(by Athan Reines)_
 -   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - **feat:** update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436) _(by stdlib-bot)_
