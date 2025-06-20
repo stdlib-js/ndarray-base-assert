@@ -35,32 +35,20 @@ limitations under the License.
 
 > Base ndarray assertion utilities.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/ndarray-base-assert
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/ndarray-base-assert' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@deno/mod.js';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { hasEqualShape, isAllowedDataTypeCast, isBooleanDataType, isBooleanIndexDataType, isBufferLengthCompatible, isBufferLengthCompatibleShape, isCastingMode, isColumnMajor, isColumnMajorContiguous, isColumnMajorString, isComplexFloatingPointDataType, isContiguous, isDataType, isFloatingPointDataType, isIndexDataType, isIndexMode, isInputCastingPolicy, isIntegerDataType, isIntegerIndexDataType, isMaskIndexDataType, isMostlySafeDataTypeCast, isNumericDataType, isOrder, isOutputDataTypePolicy, isReadOnly, isRealDataType, isRealFloatingPointDataType, isRowMajor, isRowMajorContiguous, isRowMajorString, isSafeDataTypeCast, isSameKindDataTypeCast, isScalarMostlySafeCompatible, isSignedIntegerDataType, isSingleSegmentCompatible, isStructDataType, isUnsignedIntegerDataType } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@deno/mod.js';
 ```
 
 #### ns
@@ -130,8 +118,8 @@ var o = ns;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/ndarray-base-assert' );
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
@@ -157,7 +145,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -222,77 +210,77 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/ndarray/base/assert/has-equal-shape]: https://github.com/stdlib-js/ndarray-base-assert-has-equal-shape
+[@stdlib/ndarray/base/assert/has-equal-shape]: https://github.com/stdlib-js/ndarray-base-assert-has-equal-shape/tree/deno
 
-[@stdlib/ndarray/base/assert/is-allowed-data-type-cast]: https://github.com/stdlib-js/ndarray-base-assert-is-allowed-data-type-cast
+[@stdlib/ndarray/base/assert/is-allowed-data-type-cast]: https://github.com/stdlib-js/ndarray-base-assert-is-allowed-data-type-cast/tree/deno
 
-[@stdlib/ndarray/base/assert/is-boolean-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-boolean-data-type
+[@stdlib/ndarray/base/assert/is-boolean-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-boolean-data-type/tree/deno
 
-[@stdlib/ndarray/base/assert/is-boolean-index-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-boolean-index-data-type
+[@stdlib/ndarray/base/assert/is-boolean-index-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-boolean-index-data-type/tree/deno
 
-[@stdlib/ndarray/base/assert/is-buffer-length-compatible-shape]: https://github.com/stdlib-js/ndarray-base-assert-is-buffer-length-compatible-shape
+[@stdlib/ndarray/base/assert/is-buffer-length-compatible-shape]: https://github.com/stdlib-js/ndarray-base-assert-is-buffer-length-compatible-shape/tree/deno
 
-[@stdlib/ndarray/base/assert/is-buffer-length-compatible]: https://github.com/stdlib-js/ndarray-base-assert-is-buffer-length-compatible
+[@stdlib/ndarray/base/assert/is-buffer-length-compatible]: https://github.com/stdlib-js/ndarray-base-assert-is-buffer-length-compatible/tree/deno
 
-[@stdlib/ndarray/base/assert/is-casting-mode]: https://github.com/stdlib-js/ndarray-base-assert-is-casting-mode
+[@stdlib/ndarray/base/assert/is-casting-mode]: https://github.com/stdlib-js/ndarray-base-assert-is-casting-mode/tree/deno
 
-[@stdlib/ndarray/base/assert/is-column-major-contiguous]: https://github.com/stdlib-js/ndarray-base-assert-is-column-major-contiguous
+[@stdlib/ndarray/base/assert/is-column-major-contiguous]: https://github.com/stdlib-js/ndarray-base-assert-is-column-major-contiguous/tree/deno
 
-[@stdlib/ndarray/base/assert/is-column-major-string]: https://github.com/stdlib-js/ndarray-base-assert-is-column-major-string
+[@stdlib/ndarray/base/assert/is-column-major-string]: https://github.com/stdlib-js/ndarray-base-assert-is-column-major-string/tree/deno
 
-[@stdlib/ndarray/base/assert/is-column-major]: https://github.com/stdlib-js/ndarray-base-assert-is-column-major
+[@stdlib/ndarray/base/assert/is-column-major]: https://github.com/stdlib-js/ndarray-base-assert-is-column-major/tree/deno
 
-[@stdlib/ndarray/base/assert/is-complex-floating-point-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-complex-floating-point-data-type
+[@stdlib/ndarray/base/assert/is-complex-floating-point-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-complex-floating-point-data-type/tree/deno
 
-[@stdlib/ndarray/base/assert/is-contiguous]: https://github.com/stdlib-js/ndarray-base-assert-is-contiguous
+[@stdlib/ndarray/base/assert/is-contiguous]: https://github.com/stdlib-js/ndarray-base-assert-is-contiguous/tree/deno
 
-[@stdlib/ndarray/base/assert/is-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type
+[@stdlib/ndarray/base/assert/is-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type/tree/deno
 
-[@stdlib/ndarray/base/assert/is-floating-point-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-floating-point-data-type
+[@stdlib/ndarray/base/assert/is-floating-point-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-floating-point-data-type/tree/deno
 
-[@stdlib/ndarray/base/assert/is-index-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-index-data-type
+[@stdlib/ndarray/base/assert/is-index-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-index-data-type/tree/deno
 
-[@stdlib/ndarray/base/assert/is-index-mode]: https://github.com/stdlib-js/ndarray-base-assert-is-index-mode
+[@stdlib/ndarray/base/assert/is-index-mode]: https://github.com/stdlib-js/ndarray-base-assert-is-index-mode/tree/deno
 
-[@stdlib/ndarray/base/assert/is-input-casting-policy]: https://github.com/stdlib-js/ndarray-base-assert-is-input-casting-policy
+[@stdlib/ndarray/base/assert/is-input-casting-policy]: https://github.com/stdlib-js/ndarray-base-assert-is-input-casting-policy/tree/deno
 
-[@stdlib/ndarray/base/assert/is-integer-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type
+[@stdlib/ndarray/base/assert/is-integer-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-integer-data-type/tree/deno
 
-[@stdlib/ndarray/base/assert/is-integer-index-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-integer-index-data-type
+[@stdlib/ndarray/base/assert/is-integer-index-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-integer-index-data-type/tree/deno
 
-[@stdlib/ndarray/base/assert/is-mask-index-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-mask-index-data-type
+[@stdlib/ndarray/base/assert/is-mask-index-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-mask-index-data-type/tree/deno
 
-[@stdlib/ndarray/base/assert/is-mostly-safe-data-type-cast]: https://github.com/stdlib-js/ndarray-base-assert-is-mostly-safe-data-type-cast
+[@stdlib/ndarray/base/assert/is-mostly-safe-data-type-cast]: https://github.com/stdlib-js/ndarray-base-assert-is-mostly-safe-data-type-cast/tree/deno
 
-[@stdlib/ndarray/base/assert/is-numeric-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-numeric-data-type
+[@stdlib/ndarray/base/assert/is-numeric-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-numeric-data-type/tree/deno
 
-[@stdlib/ndarray/base/assert/is-order]: https://github.com/stdlib-js/ndarray-base-assert-is-order
+[@stdlib/ndarray/base/assert/is-order]: https://github.com/stdlib-js/ndarray-base-assert-is-order/tree/deno
 
-[@stdlib/ndarray/base/assert/is-output-data-type-policy]: https://github.com/stdlib-js/ndarray-base-assert-is-output-data-type-policy
+[@stdlib/ndarray/base/assert/is-output-data-type-policy]: https://github.com/stdlib-js/ndarray-base-assert-is-output-data-type-policy/tree/deno
 
-[@stdlib/ndarray/base/assert/is-read-only]: https://github.com/stdlib-js/ndarray-base-assert-is-read-only
+[@stdlib/ndarray/base/assert/is-read-only]: https://github.com/stdlib-js/ndarray-base-assert-is-read-only/tree/deno
 
-[@stdlib/ndarray/base/assert/is-real-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-real-data-type
+[@stdlib/ndarray/base/assert/is-real-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-real-data-type/tree/deno
 
-[@stdlib/ndarray/base/assert/is-real-floating-point-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-real-floating-point-data-type
+[@stdlib/ndarray/base/assert/is-real-floating-point-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-real-floating-point-data-type/tree/deno
 
-[@stdlib/ndarray/base/assert/is-row-major-contiguous]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous
+[@stdlib/ndarray/base/assert/is-row-major-contiguous]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/tree/deno
 
-[@stdlib/ndarray/base/assert/is-row-major-string]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-string
+[@stdlib/ndarray/base/assert/is-row-major-string]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-string/tree/deno
 
-[@stdlib/ndarray/base/assert/is-row-major]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major
+[@stdlib/ndarray/base/assert/is-row-major]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major/tree/deno
 
-[@stdlib/ndarray/base/assert/is-safe-data-type-cast]: https://github.com/stdlib-js/ndarray-base-assert-is-safe-data-type-cast
+[@stdlib/ndarray/base/assert/is-safe-data-type-cast]: https://github.com/stdlib-js/ndarray-base-assert-is-safe-data-type-cast/tree/deno
 
-[@stdlib/ndarray/base/assert/is-same-kind-data-type-cast]: https://github.com/stdlib-js/ndarray-base-assert-is-same-kind-data-type-cast
+[@stdlib/ndarray/base/assert/is-same-kind-data-type-cast]: https://github.com/stdlib-js/ndarray-base-assert-is-same-kind-data-type-cast/tree/deno
 
-[@stdlib/ndarray/base/assert/is-scalar-mostly-safe-compatible]: https://github.com/stdlib-js/ndarray-base-assert-is-scalar-mostly-safe-compatible
+[@stdlib/ndarray/base/assert/is-scalar-mostly-safe-compatible]: https://github.com/stdlib-js/ndarray-base-assert-is-scalar-mostly-safe-compatible/tree/deno
 
-[@stdlib/ndarray/base/assert/is-signed-integer-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-signed-integer-data-type
+[@stdlib/ndarray/base/assert/is-signed-integer-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-signed-integer-data-type/tree/deno
 
-[@stdlib/ndarray/base/assert/is-single-segment-compatible]: https://github.com/stdlib-js/ndarray-base-assert-is-single-segment-compatible
+[@stdlib/ndarray/base/assert/is-single-segment-compatible]: https://github.com/stdlib-js/ndarray-base-assert-is-single-segment-compatible/tree/deno
 
-[@stdlib/ndarray/base/assert/is-unsigned-integer-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-unsigned-integer-data-type
+[@stdlib/ndarray/base/assert/is-unsigned-integer-data-type]: https://github.com/stdlib-js/ndarray-base-assert-is-unsigned-integer-data-type/tree/deno
 
 <!-- </toc-links> -->
 
