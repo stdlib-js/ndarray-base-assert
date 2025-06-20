@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-29)
+## Unreleased (2025-06-20)
 
 <section class="features">
 
 ### Features
 
+-   [`eac188f`](https://github.com/stdlib-js/stdlib/commit/eac188f4def9fa545e9e0cfcd5731a66337fcd1a) - add support for struct data types
+-   [`99ecc69`](https://github.com/stdlib-js/stdlib/commit/99ecc6907e9c26dabe4dd8e8dfb3b08d10d622c3) - add `isStructDataType` to namespace
+-   [`d20a2ea`](https://github.com/stdlib-js/stdlib/commit/d20a2ea2cba39ea485abb500861a1fdc2088a36c) - add `ndarray/base/assert/is-struct-data-type`
 -   [`d97a6dc`](https://github.com/stdlib-js/stdlib/commit/d97a6dce7cbaaeec6168a853a70038d49ca3bf9c) - add `isInputCastingPolicy` to namespace
 -   [`76720ca`](https://github.com/stdlib-js/stdlib/commit/76720ca15cf2ab2362923073da524e6d1b882afb) - add `ndarray/base/assert/is-input-casting-policy`
 -   [`1bbc59f`](https://github.com/stdlib-js/stdlib/commit/1bbc59f31cd81f3058f6c568567acdbd8056526b) - add `isBooleanIndexDataType` to namespace
@@ -60,9 +63,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#6604](https://github.com/stdlib-js/stdlib/issues/6604)
+[#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6776](https://github.com/stdlib-js/stdlib/issues/6776)
 
 </section>
 
@@ -74,6 +77,10 @@ This release closes the following issue:
 
 <details>
 
+-   [`eac188f`](https://github.com/stdlib-js/stdlib/commit/eac188f4def9fa545e9e0cfcd5731a66337fcd1a) - **feat:** add support for struct data types _(by Athan Reines)_
+-   [`99ecc69`](https://github.com/stdlib-js/stdlib/commit/99ecc6907e9c26dabe4dd8e8dfb3b08d10d622c3) - **feat:** add `isStructDataType` to namespace _(by Athan Reines)_
+-   [`d20a2ea`](https://github.com/stdlib-js/stdlib/commit/d20a2ea2cba39ea485abb500861a1fdc2088a36c) - **feat:** add `ndarray/base/assert/is-struct-data-type` _(by Athan Reines)_
+-   [`e1e45f6`](https://github.com/stdlib-js/stdlib/commit/e1e45f6323aa212a1ae7bbc0ac584131f7c87805) - **chore:** fix EditorConfig lint errors [(#6860)](https://github.com/stdlib-js/stdlib/pull/6860) _(by zhanggy)_
 -   [`6464a4b`](https://github.com/stdlib-js/stdlib/commit/6464a4ba00ba9579a2da77a0e2282a0f03bfdc01) - **docs:** update namespace table of contents [(#6828)](https://github.com/stdlib-js/stdlib/pull/6828) _(by stdlib-bot)_
 -   [`9459c45`](https://github.com/stdlib-js/stdlib/commit/9459c452bfd439f732c3eaa20c6ab257c64b10bd) - **test:** add test case _(by Athan Reines)_
 -   [`d97a6dc`](https://github.com/stdlib-js/stdlib/commit/d97a6dce7cbaaeec6168a853a70038d49ca3bf9c) - **feat:** add `isInputCastingPolicy` to namespace _(by Athan Reines)_
@@ -123,12 +130,13 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   MANI
 -   Philipp Burckhardt
 -   Pravesh Kunwar
+-   zhanggy
 
 </section>
 
