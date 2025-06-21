@@ -111,7 +111,7 @@
     "@stdlib/ndarray-same-kind-casts": "^0.3.0",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
