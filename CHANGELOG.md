@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-21)
+## Unreleased (2025-06-28)
 
 <section class="features">
 
 ### Features
 
+-   [`1390cf3`](https://github.com/stdlib-js/stdlib/commit/1390cf3c36b931394e470c7ba4950399b249c5f9) - add `isDataTypeString` to namespace
+-   [`0ef0986`](https://github.com/stdlib-js/stdlib/commit/0ef098649fc4c4d64d8b5c06316e0793d8974651) - add `ndarray/base/assert/is-data-type-string`
 -   [`eac188f`](https://github.com/stdlib-js/stdlib/commit/eac188f4def9fa545e9e0cfcd5731a66337fcd1a) - add support for struct data types
 -   [`99ecc69`](https://github.com/stdlib-js/stdlib/commit/99ecc6907e9c26dabe4dd8e8dfb3b08d10d622c3) - add `isStructDataType` to namespace
 -   [`d20a2ea`](https://github.com/stdlib-js/stdlib/commit/d20a2ea2cba39ea485abb500861a1fdc2088a36c) - add `ndarray/base/assert/is-struct-data-type`
@@ -77,6 +79,8 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`1390cf3`](https://github.com/stdlib-js/stdlib/commit/1390cf3c36b931394e470c7ba4950399b249c5f9) - **feat:** add `isDataTypeString` to namespace _(by Athan Reines)_
+-   [`0ef0986`](https://github.com/stdlib-js/stdlib/commit/0ef098649fc4c4d64d8b5c06316e0793d8974651) - **feat:** add `ndarray/base/assert/is-data-type-string` _(by Athan Reines)_
 -   [`3f4be91`](https://github.com/stdlib-js/stdlib/commit/3f4be91fd9025e696b72b5159fee981f47937c7f) - **docs:** update namespace table of contents [(#7433)](https://github.com/stdlib-js/stdlib/pull/7433) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`eac188f`](https://github.com/stdlib-js/stdlib/commit/eac188f4def9fa545e9e0cfcd5731a66337fcd1a) - **feat:** add support for struct data types _(by Athan Reines)_
 -   [`99ecc69`](https://github.com/stdlib-js/stdlib/commit/99ecc6907e9c26dabe4dd8e8dfb3b08d10d622c3) - **feat:** add `isStructDataType` to namespace _(by Athan Reines)_

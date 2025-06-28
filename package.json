@@ -49,6 +49,7 @@
     "@stdlib/ndarray-base-assert-is-complex-floating-point-data-type": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-contiguous": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-data-type": "^0.2.2",
+    "@stdlib/ndarray-base-assert-is-data-type-string": "github:stdlib-js/ndarray-base-assert-is-data-type-string#main",
     "@stdlib/ndarray-base-assert-is-floating-point-data-type": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-index-data-type": "github:stdlib-js/ndarray-base-assert-is-index-data-type#main",
     "@stdlib/ndarray-base-assert-is-index-mode": "^0.2.2",
