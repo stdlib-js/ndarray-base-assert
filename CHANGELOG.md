@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-28)
+## Unreleased (2025-09-19)
 
 <section class="features">
 
 ### Features
 
+-   [`fc43bac`](https://github.com/stdlib-js/stdlib/commit/fc43bac47c9c2419da27a568dce6d05e05dc904a) - add `isEqualDataType` to namespace
+-   [`aa727fa`](https://github.com/stdlib-js/stdlib/commit/aa727fa586eed12d282eb46e49cdbd8e28e18712) - add `ndarray/base/assert/is-equal-data-type`
+-   [`34a957c`](https://github.com/stdlib-js/stdlib/commit/34a957cac3f76bac1f00c5366802096b05c30e65) - add support for `DataType` instances
+-   [`f89403b`](https://github.com/stdlib-js/stdlib/commit/f89403b0b93f16037e7a5c6aa7752efe9f7dd854) - add `isDataTypeObject` to namespace
+-   [`c31794b`](https://github.com/stdlib-js/stdlib/commit/c31794b5f6f6c60db2c2f0f11ed274039db837a2) - add `ndarray/base/assert/is-data-type-object`
 -   [`1390cf3`](https://github.com/stdlib-js/stdlib/commit/1390cf3c36b931394e470c7ba4950399b249c5f9) - add `isDataTypeString` to namespace
 -   [`0ef0986`](https://github.com/stdlib-js/stdlib/commit/0ef098649fc4c4d64d8b5c06316e0793d8974651) - add `ndarray/base/assert/is-data-type-string`
 -   [`eac188f`](https://github.com/stdlib-js/stdlib/commit/eac188f4def9fa545e9e0cfcd5731a66337fcd1a) - add support for struct data types
@@ -45,6 +50,16 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`a278663`](https://github.com/stdlib-js/stdlib/commit/a2786634547c68e950444c8a16d522d2ab79e335) - ensure \"generic\" data type objects are considered valid
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
@@ -79,6 +94,15 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`fc43bac`](https://github.com/stdlib-js/stdlib/commit/fc43bac47c9c2419da27a568dce6d05e05dc904a) - **feat:** add `isEqualDataType` to namespace _(by Athan Reines)_
+-   [`aa727fa`](https://github.com/stdlib-js/stdlib/commit/aa727fa586eed12d282eb46e49cdbd8e28e18712) - **feat:** add `ndarray/base/assert/is-equal-data-type` _(by Athan Reines)_
+-   [`a278663`](https://github.com/stdlib-js/stdlib/commit/a2786634547c68e950444c8a16d522d2ab79e335) - **fix:** ensure \"generic\" data type objects are considered valid _(by Athan Reines)_
+-   [`34a957c`](https://github.com/stdlib-js/stdlib/commit/34a957cac3f76bac1f00c5366802096b05c30e65) - **feat:** add support for `DataType` instances _(by Athan Reines)_
+-   [`f89403b`](https://github.com/stdlib-js/stdlib/commit/f89403b0b93f16037e7a5c6aa7752efe9f7dd854) - **feat:** add `isDataTypeObject` to namespace _(by Athan Reines)_
+-   [`c31794b`](https://github.com/stdlib-js/stdlib/commit/c31794b5f6f6c60db2c2f0f11ed274039db837a2) - **feat:** add `ndarray/base/assert/is-data-type-object` _(by Athan Reines)_
+-   [`f344466`](https://github.com/stdlib-js/stdlib/commit/f344466c6dcfb8f52d7f3148acaadd52772938da) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`6eee151`](https://github.com/stdlib-js/stdlib/commit/6eee15199727d04e3757e66f38384e97b8a333da) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`82ef59a`](https://github.com/stdlib-js/stdlib/commit/82ef59aadd8de578d9a57780108e3ff4cb440dfe) - **bench:** ensure values are within bounds _(by Athan Reines)_
 -   [`1390cf3`](https://github.com/stdlib-js/stdlib/commit/1390cf3c36b931394e470c7ba4950399b249c5f9) - **feat:** add `isDataTypeString` to namespace _(by Athan Reines)_
 -   [`0ef0986`](https://github.com/stdlib-js/stdlib/commit/0ef098649fc4c4d64d8b5c06316e0793d8974651) - **feat:** add `ndarray/base/assert/is-data-type-string` _(by Athan Reines)_
 -   [`3f4be91`](https://github.com/stdlib-js/stdlib/commit/3f4be91fd9025e696b72b5159fee981f47937c7f) - **docs:** update namespace table of contents [(#7433)](https://github.com/stdlib-js/stdlib/pull/7433) _(by stdlib-bot, Philipp Burckhardt)_
