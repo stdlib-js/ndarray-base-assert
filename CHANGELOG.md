@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-07)
+## Unreleased (2025-12-02)
 
 <section class="features">
 
 ### Features
 
+-   [`e24d1a7`](https://github.com/stdlib-js/stdlib/commit/e24d1a701a3cb60714f3d44c0ff87341dd0d870a) - update `ndarray/base/assert` TypeScript declarations
 -   [`cad6845`](https://github.com/stdlib-js/stdlib/commit/cad68452e8d2a52ebe1ebfd74117d98197a4a568) - add `isComplexFloatingPointDataTypeChar` to namespace
 -   [`b8c50f8`](https://github.com/stdlib-js/stdlib/commit/b8c50f8cb3942eeb670d144cb4089ff30ed7370b) - add `ndarray/base/assert/is-complex-floating-point-data-type-char`
 -   [`e76eee3`](https://github.com/stdlib-js/stdlib/commit/e76eee36993ff476d8329e7b9a5131e29960ffc2) - update `ndarray/base/assert` TypeScript declarations
@@ -103,9 +104,9 @@
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6776](https://github.com/stdlib-js/stdlib/issues/6776), [#8156](https://github.com/stdlib-js/stdlib/issues/8156)
+[#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6776](https://github.com/stdlib-js/stdlib/issues/6776), [#8156](https://github.com/stdlib-js/stdlib/issues/8156), [#8508](https://github.com/stdlib-js/stdlib/issues/8508)
 
 </section>
 
@@ -117,6 +118,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`e24d1a7`](https://github.com/stdlib-js/stdlib/commit/e24d1a701a3cb60714f3d44c0ff87341dd0d870a) - **feat:** update `ndarray/base/assert` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`298b612`](https://github.com/stdlib-js/stdlib/commit/298b612c3406864fddd120b84a713f657cafd458) - **chore:** fix JavaScript lint errors [(#8509)](https://github.com/stdlib-js/stdlib/pull/8509) _(by kaushal-kumar-it)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`cad6845`](https://github.com/stdlib-js/stdlib/commit/cad68452e8d2a52ebe1ebfd74117d98197a4a568) - **feat:** add `isComplexFloatingPointDataTypeChar` to namespace _(by Athan Reines)_
 -   [`b8c50f8`](https://github.com/stdlib-js/stdlib/commit/b8c50f8cb3942eeb670d144cb4089ff30ed7370b) - **feat:** add `ndarray/base/assert/is-complex-floating-point-data-type-char` _(by Athan Reines)_
@@ -217,13 +220,14 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Geo Daoyu
 -   MANI
 -   Philipp Burckhardt
 -   Pravesh Kunwar
+-   kaushal-kumar-it
 
 </section>
 
