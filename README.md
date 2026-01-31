@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@v0.4.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { hasEqualShape, isAllowedDataTypeCast, isBooleanDataType, isBooleanIndexDataType, isBufferLengthCompatible, isBufferLengthCompatibleShape, isCastingMode, isColumnMajor, isColumnMajorContiguous, isColumnMajorString, isComplexFloatingPointDataType, isComplexFloatingPointDataTypeChar, isContiguous, isDataType, isDataTypeObject, isDataTypeString, isEqualDataType, isFloatingPointDataType, isIndexDataType, isIndexMode, isInputCastingPolicy, isIntegerDataType, isIntegerIndexDataType, isMaskIndexDataType, isMostlySafeDataTypeCast, isNumericDataType, isOrder, isOutputDataTypePolicy, isReadOnly, isRealDataType, isRealFloatingPointDataType, isRowMajor, isRowMajorContiguous, isRowMajorString, isSafeDataTypeCast, isSameKindDataTypeCast, isScalarMostlySafeCompatible, isSignedIntegerDataType, isSingleSegmentCompatible, isStructDataType, isUnsignedIntegerDataType } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@deno/mod.js';
+import { hasEqualShape, isAllowedDataTypeCast, isBooleanDataType, isBooleanIndexDataType, isBufferLengthCompatible, isBufferLengthCompatibleShape, isCastingMode, isColumnMajor, isColumnMajorContiguous, isColumnMajorString, isComplexFloatingPointDataType, isComplexFloatingPointDataTypeChar, isContiguous, isDataType, isDataTypeObject, isDataTypeString, isEqualDataType, isFloatingPointDataType, isIndexDataType, isIndexMode, isInputCastingPolicy, isIntegerDataType, isIntegerIndexDataType, isMaskIndexDataType, isMostlySafeDataTypeCast, isNumericDataType, isOrder, isOutputDataTypePolicy, isReadOnly, isRealDataType, isRealFloatingPointDataType, isRowMajor, isRowMajorContiguous, isRowMajorString, isSafeDataTypeCast, isSameKindDataTypeCast, isScalarMostlySafeCompatible, isSignedIntegerDataType, isSingleSegmentCompatible, isStructDataType, isUnsignedIntegerDataType } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@v0.4.0-deno/mod.js';
 ```
 
 #### ns
@@ -124,7 +124,7 @@ var o = ns;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@v0.4.0-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
