@@ -77,7 +77,8 @@
     "@stdlib/ndarray-base-assert-is-single-segment-compatible": "^0.2.3",
     "@stdlib/ndarray-base-assert-is-struct-data-type": "^0.1.1",
     "@stdlib/ndarray-base-assert-is-unsigned-integer-data-type": "^0.3.1",
-    "@stdlib/utils-define-read-only-property": "^0.2.3"
+    "@stdlib/utils-define-read-only-property": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.3",
