@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@v0.4.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { hasEqualShape, isAllowedDataTypeCast, isBooleanDataType, isBooleanIndexDataType, isBufferLengthCompatible, isBufferLengthCompatibleShape, isCastingMode, isColumnMajor, isColumnMajorContiguous, isColumnMajorString, isComplexFloatingPointDataType, isComplexFloatingPointDataTypeChar, isContiguous, isDataType, isDataTypeObject, isDataTypeString, isEqualDataType, isFloatingPointDataType, isIndexDataType, isIndexMode, isInputCastingPolicy, isIntegerDataType, isIntegerIndexDataType, isMaskIndexDataType, isMostlySafeDataTypeCast, isNumericDataType, isOrder, isOutputDataTypePolicy, isReadOnly, isRealDataType, isRealFloatingPointDataType, isRowMajor, isRowMajorContiguous, isRowMajorString, isSafeDataTypeCast, isSameKindDataTypeCast, isScalarMostlySafeCompatible, isSignedIntegerDataType, isSingleSegmentCompatible, isStructDataType, isUnsignedIntegerDataType } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@v0.4.1-esm/index.mjs';
+import { hasEqualShape, isAllowedDataTypeCast, isBooleanDataType, isBooleanIndexDataType, isBufferLengthCompatible, isBufferLengthCompatibleShape, isCastingMode, isColumnMajor, isColumnMajorContiguous, isColumnMajorString, isComplexFloatingPointDataType, isComplexFloatingPointDataTypeChar, isContiguous, isDataType, isDataTypeObject, isDataTypeString, isEqualDataType, isFloatingPointDataType, isIndexDataType, isIndexMode, isInputCastingPolicy, isIntegerDataType, isIntegerIndexDataType, isMaskIndexDataType, isMostlySafeDataTypeCast, isNumericDataType, isOrder, isOutputDataTypePolicy, isReadOnly, isRealDataType, isRealFloatingPointDataType, isRowMajor, isRowMajorContiguous, isRowMajorString, isSafeDataTypeCast, isSameKindDataTypeCast, isScalarMostlySafeCompatible, isSignedIntegerDataType, isSingleSegmentCompatible, isStructDataType, isUnsignedIntegerDataType } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@esm/index.mjs';
 ```
 
 #### ns
@@ -129,7 +134,7 @@ var o = ns;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@v0.4.1-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
