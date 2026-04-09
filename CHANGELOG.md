@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-04-09)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`075d798`](https://github.com/stdlib-js/stdlib/commit/075d7989c15119545bb4474ac5674b92073f5ddf) - **bench:** refactor to use string interpolation in `ndarray/base/assert/has-equal-shape` [(#11039)](https://github.com/stdlib-js/stdlib/pull/11039) _(by Partha Das)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Partha Das
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-02-08)
