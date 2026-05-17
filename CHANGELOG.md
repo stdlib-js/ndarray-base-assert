@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-09)
+## Unreleased (2026-05-17)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`ad3f046`](https://github.com/stdlib-js/stdlib/commit/ad3f04667c2cc32b6e749d8b08259afecff3f1e8) - **bench:** refactor to use string interpolation in `@stdlib/ndarray-base` [(#11434)](https://github.com/stdlib-js/stdlib/pull/11434) _(by Karan Anand)_
 -   [`075d798`](https://github.com/stdlib-js/stdlib/commit/075d7989c15119545bb4474ac5674b92073f5ddf) - **bench:** refactor to use string interpolation in `ndarray/base/assert/has-equal-shape` [(#11039)](https://github.com/stdlib-js/stdlib/pull/11039) _(by Partha Das)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Karan Anand
 -   Partha Das
 
 </section>
