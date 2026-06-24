@@ -4,7 +4,32 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-20)
+## Unreleased (2026-06-24)
+
+<section class="features">
+
+### Features
+
+-   [`c9a4e5c`](https://github.com/stdlib-js/stdlib/commit/c9a4e5ce4cfa693bb66df02c8182e003a88f9b20) - add `isGenericDataType`
+-   [`d4323d4`](https://github.com/stdlib-js/stdlib/commit/d4323d42b1e6509b6fc8fd2cbb44117f1011b1aa) - add `ndarray/base/assert/is-generic-data-type`
+-   [`34da35d`](https://github.com/stdlib-js/stdlib/commit/34da35d9674e4dcf02465949fd39eaf4b3a342e3) - add `isBinaryDataType` to namespace
+-   [`3b85408`](https://github.com/stdlib-js/stdlib/commit/3b85408231a00d40ac90c05c971ce83576e65ba0) - add `ndarray/base/assert/is-binary-data-type`
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#12209](https://github.com/stdlib-js/stdlib/issues/12209)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +37,12 @@
 
 <details>
 
+-   [`c9a4e5c`](https://github.com/stdlib-js/stdlib/commit/c9a4e5ce4cfa693bb66df02c8182e003a88f9b20) - **feat:** add `isGenericDataType` _(by Athan Reines)_
+-   [`d4323d4`](https://github.com/stdlib-js/stdlib/commit/d4323d42b1e6509b6fc8fd2cbb44117f1011b1aa) - **feat:** add `ndarray/base/assert/is-generic-data-type` _(by Athan Reines)_
+-   [`34da35d`](https://github.com/stdlib-js/stdlib/commit/34da35d9674e4dcf02465949fd39eaf4b3a342e3) - **feat:** add `isBinaryDataType` to namespace _(by Athan Reines)_
+-   [`3b85408`](https://github.com/stdlib-js/stdlib/commit/3b85408231a00d40ac90c05c971ce83576e65ba0) - **feat:** add `ndarray/base/assert/is-binary-data-type` _(by Athan Reines)_
+-   [`43fb779`](https://github.com/stdlib-js/stdlib/commit/43fb7797d582eea6ad549cc82e0c89848c2ee4f9) - **chore:** remove stray file [(#12820)](https://github.com/stdlib-js/stdlib/pull/12820) _(by Philipp Burckhardt)_
+-   [`ffbae89`](https://github.com/stdlib-js/stdlib/commit/ffbae8968bd9c767c100864a4c638037e517b734) - **chore:** fix C lint errors [(#12210)](https://github.com/stdlib-js/stdlib/pull/12210) _(by Geo Daoyu)_
 -   [`ad3f046`](https://github.com/stdlib-js/stdlib/commit/ad3f04667c2cc32b6e749d8b08259afecff3f1e8) - **bench:** refactor to use string interpolation in `@stdlib/ndarray-base` [(#11434)](https://github.com/stdlib-js/stdlib/pull/11434) _(by Karan Anand)_
 -   [`075d798`](https://github.com/stdlib-js/stdlib/commit/075d7989c15119545bb4474ac5674b92073f5ddf) - **bench:** refactor to use string interpolation in `ndarray/base/assert/has-equal-shape` [(#11039)](https://github.com/stdlib-js/stdlib/pull/11039) _(by Partha Das)_
 
@@ -25,10 +56,13 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
+-   Geo Daoyu
 -   Karan Anand
 -   Partha Das
+-   Philipp Burckhardt
 
 </section>
 
