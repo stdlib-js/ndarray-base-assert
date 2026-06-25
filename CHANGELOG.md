@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-24)
+## Unreleased (2026-06-25)
 
 <section class="features">
 
@@ -37,6 +37,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`4a14673`](https://github.com/stdlib-js/stdlib/commit/4a1467352fcbd486caca6564a300c627449d796d) - **docs:** update namespace table of contents [(#13121)](https://github.com/stdlib-js/stdlib/pull/13121) _(by stdlib-bot)_
 -   [`c9a4e5c`](https://github.com/stdlib-js/stdlib/commit/c9a4e5ce4cfa693bb66df02c8182e003a88f9b20) - **feat:** add `isGenericDataType` _(by Athan Reines)_
 -   [`d4323d4`](https://github.com/stdlib-js/stdlib/commit/d4323d42b1e6509b6fc8fd2cbb44117f1011b1aa) - **feat:** add `ndarray/base/assert/is-generic-data-type` _(by Athan Reines)_
 -   [`34da35d`](https://github.com/stdlib-js/stdlib/commit/34da35d9674e4dcf02465949fd39eaf4b3a342e3) - **feat:** add `isBinaryDataType` to namespace _(by Athan Reines)_
