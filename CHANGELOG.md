@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-01)
+## Unreleased (2026-08-19)
 
 <section class="features">
 
@@ -24,9 +24,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#12209](https://github.com/stdlib-js/stdlib/issues/12209)
+[#12209](https://github.com/stdlib-js/stdlib/issues/12209), [#13963](https://github.com/stdlib-js/stdlib/issues/13963)
 
 </section>
 
@@ -38,6 +38,11 @@ This release closes the following issue:
 
 <details>
 
+-   [`f19d370`](https://github.com/stdlib-js/stdlib/commit/f19d370e0a194ac8ffed4916f8b8b51ecfe5896f) - **chore:** clean-up [(#14016)](https://github.com/stdlib-js/stdlib/pull/14016) _(by Philipp Burckhardt)_
+-   [`58556f4`](https://github.com/stdlib-js/stdlib/commit/58556f408eedf1737bc4795fb2734ef4dd2a6b32) - **chore:** clean-up [(#13978)](https://github.com/stdlib-js/stdlib/pull/13978) _(by Philipp Burckhardt)_
+-   [`ed2034b`](https://github.com/stdlib-js/stdlib/commit/ed2034b50d57287741f2492ce90c5a2fdd4434d2) - **chore:** fix C lint errors [(#13964)](https://github.com/stdlib-js/stdlib/pull/13964) _(by Ashutosh Choubey, Athan Reines)_
+-   [`8ef56c4`](https://github.com/stdlib-js/stdlib/commit/8ef56c412bf46e234fdff7db65f6e489c406566b) - **refactor:** add `const` qualifiers _(by Athan Reines)_
+-   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
 -   [`9e91810`](https://github.com/stdlib-js/stdlib/commit/9e91810bfa37f32b66e04ac1ee69b640ea2e43ff) - **feat:** update `ndarray/base/assert` TypeScript declarations [(#13119)](https://github.com/stdlib-js/stdlib/pull/13119) _(by stdlib-bot)_
 -   [`4a14673`](https://github.com/stdlib-js/stdlib/commit/4a1467352fcbd486caca6564a300c627449d796d) - **docs:** update namespace table of contents [(#13121)](https://github.com/stdlib-js/stdlib/pull/13121) _(by stdlib-bot)_
 -   [`c9a4e5c`](https://github.com/stdlib-js/stdlib/commit/c9a4e5ce4cfa693bb66df02c8182e003a88f9b20) - **feat:** add `isGenericDataType` _(by Athan Reines)_
@@ -59,8 +64,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   Ashutosh Choubey
 -   Athan Reines
 -   Geo Daoyu
 -   Karan Anand
