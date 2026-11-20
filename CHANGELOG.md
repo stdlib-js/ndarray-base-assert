@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-04)
+## Unreleased (2026-11-20)
 
 <section class="features">
 
@@ -24,9 +24,9 @@
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#12209](https://github.com/stdlib-js/stdlib/issues/12209), [#13963](https://github.com/stdlib-js/stdlib/issues/13963)
+[#12209](https://github.com/stdlib-js/stdlib/issues/12209), [#13963](https://github.com/stdlib-js/stdlib/issues/13963), [#16308](https://github.com/stdlib-js/stdlib/issues/16308)
 
 </section>
 
@@ -38,6 +38,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`9d53beb`](https://github.com/stdlib-js/stdlib/commit/9d53bebc7c1108f38d715347a50a8395e2e177b6) - **chore:** fix C lint errors [(#16316)](https://github.com/stdlib-js/stdlib/pull/16316) _(by navenavelimargam)_
 -   [`f19d370`](https://github.com/stdlib-js/stdlib/commit/f19d370e0a194ac8ffed4916f8b8b51ecfe5896f) - **chore:** clean-up [(#14016)](https://github.com/stdlib-js/stdlib/pull/14016) _(by Philipp Burckhardt)_
 -   [`58556f4`](https://github.com/stdlib-js/stdlib/commit/58556f408eedf1737bc4795fb2734ef4dd2a6b32) - **chore:** clean-up [(#13978)](https://github.com/stdlib-js/stdlib/pull/13978) _(by Philipp Burckhardt)_
 -   [`ed2034b`](https://github.com/stdlib-js/stdlib/commit/ed2034b50d57287741f2492ce90c5a2fdd4434d2) - **chore:** fix C lint errors [(#13964)](https://github.com/stdlib-js/stdlib/pull/13964) _(by Ashutosh Choubey, Athan Reines)_
@@ -64,7 +65,7 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Ashutosh Choubey
 -   Athan Reines
@@ -72,6 +73,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 -   Karan Anand
 -   Partha Das
 -   Philipp Burckhardt
+-   navenavelimargam
 
 </section>
 
